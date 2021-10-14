@@ -62,7 +62,7 @@ function Project() {
                     alt="weather-dashboard-img"
                   />
                 </a>
-                <span class="card-title">Card Title</span>
+                <span class="card-title"></span>
               </div>
               <div class="card-content">
                 <h4>Weather Dashboard</h4>
@@ -96,7 +96,7 @@ function Project() {
                 >
                   <img class="card-video" src={QuizImage} alt="quiz-img" />
                 </a>
-                <span class="card-title">Card Title</span>
+                <span class="card-title"></span>
               </div>
               <div class="card-content">
                 <h4>Timed Quiz</h4>
@@ -131,7 +131,7 @@ function Project() {
                     alt="rock-paper-scissors-img"
                   />
                 </a>
-                <span class="card-title">Card Title</span>
+                <span class="card-title"></span>
               </div>
               <div class="card-content">
                 <h4>Rock, Paper, Scissors</h4>
@@ -169,7 +169,7 @@ function Project() {
                     alt="password-generator-img"
                   />
                 </a>
-                <span class="card-title">Card Title</span>
+                <span class="card-title"></span>
               </div>
               <div class="card-content">
                 <h4>Password Generator</h4>
@@ -205,7 +205,7 @@ function Project() {
                     alt="work-day-scheduler-img"
                   />
                 </a>
-                <span class="card-title">Card Title</span>
+                <span class="card-title"></span>
               </div>
               <div class="card-content">
                 <h4>Work Day Schedular</h4>
