@@ -1,0 +1,14 @@
+.page-footer {
+  margin-top: 30vh;
+  background-color: rgb(34, 33, 33);
+}
+
+.footer {
+  color: white;
+}
+
+.mobile-footer {
+  display: flex;
+  margin-top: 10px;
+  height: 20px !important;
+}
