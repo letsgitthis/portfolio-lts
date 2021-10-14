@@ -1,50 +1,48 @@
 import React from "react";
-// import Tabs from "react-bootstrap/Tabs";
-// import "./style.css";
-// import { Navbar } from "react-materialize";
-import { Link, useLocation } from "react-router-dom";
 
-function NavTabs() {
-  
-  const location = useLocation();
+function NavTabs(props) {
 
   return (
+
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <Link
-          to="/"
-          className={location.pathname === "/" ? "nav-link active" : "nav-link"}
+        <a
+          href="#home"
+          onClick={() => props.handlePageChange("Home")}
+          className={props.currentPage === "Home" ? "nav-link active" : "nav-link"}
         >
-          John Bentley
-        </Link>
+          Home
+        </a>
       </li>
       <li className="nav-item">
-        <Link
-          to="/About"
-          className={location.pathname === "/About" ? "nav-link active" : "nav-link"}
+        <a
+          href="#about"
+          onClick={() => props.handlePageChange("About")}
+          className={props.currentPage === "About" ? "nav-link active" : "nav-link"}
         >
           About
-        </Link>
+        </a>
       </li>
       <li className="nav-item">
-        <Link
-          to="/Projects"
-          className={
-            location.pathname === "/Projects" ? "nav-link active" : "nav-link"}
+        <a
+          href="#blog"
+          onClick={() => props.handlePageChange("Projects")}
+          className={props.currentPage === "Projects" ? "nav-link active" : "nav-link"}
         >
           Projects
-        </Link>
+        </a>
       </li>
       <li className="nav-item">
-        <Link
-          to="/Contact"
-          className={
-            location.pathname === "/Contact" ? "nav-link active" : "nav-link"}
+        <a
+          href="#contact"
+          onClick={() => props.handlePageChange("Contact")}
+          className={props.currentPage === "Contact" ? "nav-link active" : "nav-link"}
         >
           Contact
-        </Link>
+        </a>
       </li>
     </ul>
+
   )
 }
 

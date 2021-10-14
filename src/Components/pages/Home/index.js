@@ -1,15 +1,13 @@
 import React from "react";
-import "materialize-css";
-import { Parallax } from "react-materialize";
 import "./style.css";
-import BackgroundImage from "./images/background-image.jpeg";
+// import BackgroundImage from "./images/background-image.jpeg";
 import UnderConstruction from "./images/under-construction.jpeg";
-import WebsiteUnderConstruction from "./images/website-under-construction.png";
+// import WebsiteUnderConstruction from "./images/website-under-construction.png";
 
-function Main() {
+function Home() {
   return (
     <body>
-      <div>
+      {/* <div>
         <Parallax
           image={<img height="100%" src={UnderConstruction} alt="under-construction" />}
           // image={<img src={BackgroundImage} alt="background-img" />}
@@ -17,6 +15,11 @@ function Main() {
             responsiveThreshold: 0,
           }}
         />
+      </div> */}
+
+      {/* background image needs hidden true and rename className */}
+      <div className="card">
+      <img src={UnderConstruction}/>
       </div>
 
       {/* Profile Image */}
@@ -104,4 +107,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Home;
