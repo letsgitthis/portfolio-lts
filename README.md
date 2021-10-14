@@ -10,6 +10,6 @@ I want to make to not only improve my code, but to integrate those ideas as part
 
 One such project that I have worked on is a screen recorder for my computer.
 NO MORE TIME LIMITS.
-I need to add a few additional features to utilize my web-cam, but this will allow me to include more video in the portfolios that discuss the projects I'm working on and what the code does.
+I need to add a few additional features to utilize my web-cam, but this will allow me to include more video in the portfolio that discuss the projects I'm working on and what the code does.
 
 ![site-under-construstion](construction.png "check-back-later")
