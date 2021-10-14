@@ -1,7 +1,5 @@
 import React from "react";
-// import "materialize-css";
 // import "./style.css";
-// import { Navbar } from "react-materialize";
 import { Link, useLocation } from "react-router-dom";
 
 function NavTabs() {
