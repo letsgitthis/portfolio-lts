@@ -1,5 +1,5 @@
 import React from "react";
-// import "materialize-css";
+// import Tabs from "react-bootstrap/Tabs";
 // import "./style.css";
 // import { Navbar } from "react-materialize";
 import { Link, useLocation } from "react-router-dom";
@@ -16,6 +16,14 @@ function NavTabs() {
           className={location.pathname === "/" ? "nav-link active" : "nav-link"}
         >
           John Bentley
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link
+          to="/About"
+          className={location.pathname === "/About" ? "nav-link active" : "nav-link"}
+        >
+          About
         </Link>
       </li>
       <li className="nav-item">
