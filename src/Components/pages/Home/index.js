@@ -1,32 +1,18 @@
 import React from "react";
 import "./style.css";
-// import BackgroundImage from "./images/background-image.jpeg";
-import UnderConstruction from "./images/under-construction.jpeg";
-// import WebsiteUnderConstruction from "./images/website-under-construction.png";
 
 function Home() {
   return (
-    <body>
-      {/* <div>
-        <Parallax
-          image={<img height="100%" src={UnderConstruction} alt="under-construction" />}
-          // image={<img src={BackgroundImage} alt="background-img" />}
-          options={{
-            responsiveThreshold: 0,
-          }}
-        />
-      </div> */}
+    <div>
 
       {/* background image needs hidden true and rename className */}
-      <div className="card">
-      <img src={UnderConstruction}/>
+      <div id="backgroundimage">
       </div>
 
       {/* Profile Image */}
 
       {/* the main profile image is being called in the CSS, this needs to change */}
-      {/* <div id="bio-image" alt="profile-img"></div> */}
-      <div id="website-under-construction" alt="under-construction"></div>
+      <div id="bio-image" alt="profile-img"></div>
 
       {/* profile image container */}
       <figure className="container-fluid">
@@ -37,13 +23,11 @@ function Home() {
       </figure>
 
       {/* bio info */}
-      <div className="body-container">
+      <div className="container">
         <div className="row">
           <div className="col m1"></div>
           <div id="main-bio" className="col m4">
-            {/* <p>
-              I was ready for a career change and made the decision to quit my
-              job, sell my house, move back home to Au<p>
+            <p className="hide-on-small-only">
               I was ready for a career change and made the decision to quit my
               job, sell my house, move back home to Austin, Texas and earn
               certifications to become a Web Developer/Software Engineer. My
@@ -75,35 +59,13 @@ function Home() {
               certification from The Austin Coding Bootcamp at UT Austin. Now
               finally looking to apply what I have learned in a professional
               setting.
-            </p> that for me to do those
-              things, I needed to code. I had reached a point where if I wanted
-              to go any further, I needed to be in a place where I could pursue
-              it as more than just a hobby interest.
             </p>
-          </div>
-          <div id="main-bio" className="col m4">
-            <p className="hide-on-small-only">
-              Working full time as I was, I probably would've reached that next
-              step in about... 10 years? Too slow. I had to do something if I
-              wanted to reach that next step sooner. I set myself up to make
-              some good financial decisions and was quickly able to freely
-              choose what I wanted to do next in life. Over the last several
-              years, I had began learning to use several Linux Distro's,
-              familiarize myelf with the Bash terminal and repair broken
-              computers for me to use. I figured, if I wanted to be in this
-              field, I should be able to troubleshoot and repair my own
-              computers. Every computer I currently own was either broken when I
-              got it, or I built it from scratch. Then I earned a Full Stack
-              certification from The Austin Coding Bootcamp at UT Austin. Now
-              finally looking to apply what I have learned in a professional
-              setting.
-            </p> */}
           </div>
         </div>
       </div>
 
       <div className="fa-linkedin"></div>
-    </body>
+    </div>
   );
 }
 
